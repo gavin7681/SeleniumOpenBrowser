@@ -49,7 +49,7 @@ public class parallelExecution {
                         chrOptions.addArguments("--headless");
                     	driver = new ChromeDriver(chrOptions);
                     	driver.get(strUrl);
-                 	      System.out.println("<--------Headless Browser opened in Chrome browser<-------->"); 
+                 	      System.out.println("<--------Headless Browser opened in Chrome browser-------->"); 
                     }
 
                     if(browser.equalsIgnoreCase("IE"))
@@ -61,6 +61,7 @@ public class parallelExecution {
                     	System.setProperty("webdriver.ie.driver","D:/ IEDriverServer.exe");
 
                           driver = new InternetExplorerDriver();
+                 	      System.out.println("<--------Headless Browser opened in Edge browser-------->"); 
 
                     }                   
 
