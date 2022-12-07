@@ -1,2 +1,2 @@
-/home/govind/eclipse-workspace/SeleniumOpenBrowser/.gitignore
-/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/
+.gitignore
+test-output/
