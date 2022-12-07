@@ -1,2 +1,0 @@
-/home/govind/eclipse-workspace/SeleniumOpenBrowser/.gitignore.txt
-/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/
