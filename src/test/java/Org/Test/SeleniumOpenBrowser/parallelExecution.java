@@ -16,12 +16,12 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class parallelExecution { 
-	private WebDriver driver;
+	public WebDriver driver;
 	
 	String strUrl = "https://www.google.com";
 	
 	@Parameters ({"browser"})
-      @BeforeTest
+      @Test
       public void preCondition(@Optional String browser)
       {
          try
@@ -41,6 +41,7 @@ public class parallelExecution {
                		  FirefoxDriver driver = new  FirefoxDriver(firefoxOptions);
                		  driver.get(strUrl);
                	      System.out.println("<--------Headless Browser opened in FireFox browser------>"); 
+                      driver.quit();
                     }
 
                     if(browser.equalsIgnoreCase("Chrome")){
@@ -50,6 +51,7 @@ public class parallelExecution {
                     	driver = new ChromeDriver(chrOptions);
                     	driver.get(strUrl);
                  	      System.out.println("<--------Headless Browser opened in Chrome browser-------->"); 
+                 	      driver.quit();
                     }
 
                     if(browser.equalsIgnoreCase("IE"))
@@ -90,9 +92,9 @@ public class parallelExecution {
 		 * System.out.println("Browser Opened"); }
 		 */
       
-      @AfterTest
-      public void quitBrowser() {
-    	  driver.quit();
-      }
+      //@AfterTest
+     // public void quitBrowser() {
+    	 // driver.quit();
+      //}
       }
 
