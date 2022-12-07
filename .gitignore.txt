@@ -1,3 +1,7 @@
 *.gitignore
-*.html
-
+test-output/Parallel_Testing/*.html
+test-output/Parallel_Testing/*.xml
+test-output/*.html
+test-output/junitreports/*.xml
+test-output/old/Parallel_Testing/*.html
+test-output/*.xml

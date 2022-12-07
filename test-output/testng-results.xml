@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-07T16:47:59 EST" name="Parallel_Testing" finished-at="2022-12-07T16:48:06 EST" duration-ms="6744">
+  <suite started-at="2022-12-07T17:14:11 EST" name="Parallel_Testing" finished-at="2022-12-07T17:14:17 EST" duration-ms="6431">
     <groups>
     </groups>
-    <test started-at="2022-12-07T16:47:59 EST" name="fireFoxTest" finished-at="2022-12-07T16:48:02 EST" duration-ms="2450">
+    <test started-at="2022-12-07T17:14:11 EST" name="fireFoxTest" finished-at="2022-12-07T17:14:13 EST" duration-ms="2554">
       <class name="Org.Test.SeleniumOpenBrowser.parallelExecution">
-        <test-method signature="preCondition(java.lang.String)[pri:0, instance:Org.Test.SeleniumOpenBrowser.parallelExecution@1de76cc7]" started-at="2022-12-07T16:47:59 EST" name="preCondition" finished-at="2022-12-07T16:48:02 EST" duration-ms="2420" status="PASS">
+        <test-method signature="preCondition(java.lang.String)[pri:0, instance:Org.Test.SeleniumOpenBrowser.parallelExecution@1de76cc7]" started-at="2022-12-07T17:14:11 EST" name="preCondition" finished-at="2022-12-07T17:14:13 EST" duration-ms="2523" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- preCondition -->
       </class> <!-- Org.Test.SeleniumOpenBrowser.parallelExecution -->
     </test> <!-- fireFoxTest -->
-    <test started-at="2022-12-07T16:47:59 EST" name="chromeTest" finished-at="2022-12-07T16:48:06 EST" duration-ms="6744">
+    <test started-at="2022-12-07T17:14:11 EST" name="chromeTest" finished-at="2022-12-07T17:14:17 EST" duration-ms="6431">
       <class name="Org.Test.SeleniumOpenBrowser.parallelExecution">
-        <test-method signature="preCondition(java.lang.String)[pri:0, instance:Org.Test.SeleniumOpenBrowser.parallelExecution@3059cbc]" started-at="2022-12-07T16:47:59 EST" name="preCondition" finished-at="2022-12-07T16:48:06 EST" duration-ms="6718" status="PASS">
+        <test-method signature="preCondition(java.lang.String)[pri:0, instance:Org.Test.SeleniumOpenBrowser.parallelExecution@3059cbc]" started-at="2022-12-07T17:14:11 EST" name="preCondition" finished-at="2022-12-07T17:14:17 EST" duration-ms="6402" status="PASS">
           <params>
             <param index="0">
               <value>
