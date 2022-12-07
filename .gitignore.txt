@@ -1,7 +1,11 @@
 *.gitignore
-test-output/Parallel_Testing/*.html
-test-output/Parallel_Testing/*.xml
-test-output/*.html
-test-output/junitreports/*.xml
-test-output/old/Parallel_Testing/*.html
-test-output/*.xml
+/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/Parallel_Testing/*.html
+	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/Parallel_Testing/chromeTest.xml
+	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/Parallel_Testing/*.html
+	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/Parallel_Testing/*.xml
+	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/*.html
+	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/*.html
+	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/junitreports/*.xml
+	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/old/Parallel_Testing/*.html
+/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/old/Parallel_Testing/*.html
+	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/*.xml
