@@ -1,4 +1,4 @@
-*.gitignore
+/home/govind/eclipse-workspace/SeleniumOpenBrowser/.gitignore.txt
 /home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/Parallel_Testing/*.html
 	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/Parallel_Testing/chromeTest.xml
 	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/Parallel_Testing/*.html
@@ -8,4 +8,4 @@
 	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/junitreports/*.xml
 	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/old/Parallel_Testing/*.html
 /home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/old/Parallel_Testing/*.html
-	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/*.xml
+	/home/govind/eclipse-workspace/SeleniumOpenBrowser/test-output/*.xmil
